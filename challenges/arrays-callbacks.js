@@ -23,7 +23,7 @@ The zoos want to display both the scientific name and the animal name in front o
 const displayNames = [];
 
 zooAnimals.forEach (function(item){
-  return displayNames.push(item.animal_name);
+  return displayNames.push(item.animal_name,item.scientific_name);
 });
 
 console.log(displayNames);
